@@ -1,0 +1,4 @@
+name: "Code Project Example"
+identifier: "code-project-example"
+type: 'python'
+build: false
