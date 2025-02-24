@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LearnPro - Technology Courses - Python Course</title>
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="wireframes.min.css" type="text/css" />
+
+    <script src="javascript/wireframes.min.js"></script>
+  </head>
+  <body class="wf-block">
+    <header>
+      <div class="header-top">
+        <a href="/">
+          <div class="logo">
+            <img
+              src="https://placehold.co/30x30/676f7e/white/?text=Logo"
+              alt="Placeholder Image"
+            />
+            Learn Pro Academy
+          </div>
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="programming.html" class="active">Programming Courses</a>
+          </li>
+          <li><a href="#">AI Courses</a></li>
+          <li><a href="#">Infrastructure Courses</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+      <nav class="secondary-nav">
+        <ul>
+          <li><a href="python.html">Python</a></li>
+          <li><a href="#">Javascript</a></li>
+          <li><a href="#">C#</a></li>
+          <li><a href="#">Mobile App Development</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+    <section class="container maincontainer">
+      <div class="text wf-block">
+        <h1>Course Enquiry form</h1>
+        <form class="contact-form" onsubmit="alert('Thank you for your enquiry - we will be in touch soon!')">
+          <legend>Title</legend>
+          <ul>
+            <li>
+              <label for="title_1">
+                <input type="radio" id="title_1" name="title" value="Mr" />
+                Mr
+              </label>
+            </li>
+            <li>
+              <label for="title_2">
+                <input type="radio" id="title_2" name="title" value="Mrs" />
+                Mrs
+              </label>
+            </li>
+            <li>
+              <label for="title_3">
+                <input type="radio" id="title_3" name="title" value="Ms" />
+                Ms
+              </label>
+            </li>
+            <li>
+              <label for="title_4">
+                <input type="radio" id="title_4" name="title" value="Miss" />
+                Miss
+              </label>
+            </li>
+            <li>
+              <label for="title_5">
+                <input type="radio" id="title_5" name="title" value="Dr" />
+                Dr
+              </label>
+            </li>
+            <li>
+              <label for="title_6">
+                <input
+                  type="radio"
+                  id="title_6"
+                  name="title"
+                  value=""
+                  checked="checked"
+                />
+                (none)
+              </label>
+            </li>
+          </ul>
+
+          <p>
+            <label for="firstname">
+              <span>First Name: </span>
+            </label>
+            <input type="text" id="firstname" name="firstname" required />
+          </p>
+          <p>
+            <label for="lastname">
+              <span>Last Name: </span>
+            </label>
+            <input type="text" id="lastname" name="lastname" required />
+          </p>
+          <p>
+            <label for="phonenumber">
+              <span>Phone number:</span>
+            </label>
+            <input type="tel" id="phonenumber" name="cardnumber" required />
+          </p>
+          <p>
+            <label for="course">
+              <span>Select Course: </span>
+            </label>
+            <select id="course" name="course">
+              <option value="python" selected="selected">
+                --select the course of interest--
+              </option>
+              <option value="python">Python course</option>
+              <option value="javascript">Javascript course</option>
+              <option value="c# course">C# course</option>
+              <option value="ai">Artificial Intelligence course</option>
+              <option value="datascience">Data Science course</option>
+              <option value="networking">Networking course</option>
+              <option value="cloud">Cloud Computing course</option>
+            </select>
+          </p>
+          <p>
+            <label for="num_places">
+              <span>Places required: </span>
+            </label>
+            <input type="number" id="num_places" name="num_places" min="1" max="10" placeholder="Max 10" required />
+          </p>
+          <p>
+            <label for="moreinfo">
+              <span>More information: </span>
+            </label>
+            <textarea id="moreinfo" name="moreinfo" rows = "3" cols= "25"></textarea>
+          </p>
+
+          <input type="submit" class="submit_btn" value="Send enquiry"   />
+        </form>
+      </div>
+      <div class="text wf-block">
+        <!--<div class="wf-block wf-block--fill"></div>-->
+
+        <p>Instructions for booking this course go here</p>
+
+        <p class="wf-text-lines">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu sem
+          lacinia, hendrerit nulla in, aliquet nisi. Mauris eget dapibus est, eu
+          scelerisque orci. Proin mollis nec nisl in consequat. In tincidunt
+          cursus leo, id ultrices ipsum sagittis ac. Donec aliquam purus ex,
+          molestie laoreet est mattis id. Donec non accumsan mauris. Proin
+          imperdiet enim a consequat viverra. Sed tellus metus, iaculis nec elit
+          ut, euismod fringilla dui. Nullam leo lacus, rutrum nec rhoncus ut,
+          sodales a nisi. Nullam eu ligula nisl. Aenean libero ex, commodo a
+          sapien et, fermentum pretium quam. Morbi bibendum felis sem, non
+          rhoncus urna accumsan in. Vestibulum ante ipsum primis in faucibus
+          orci luctus et ultrices posuere cubilia curae; Vestibulum eros odio,
+          faucibus quis ultrices vel, vestibulum eu justo. Nunc id purus tempor,
+          hendrerit felis sed, imperdiet eros.
+        </p>
+      </div>
+    </section>
+   </main>
+    <footer>
+      <p>&copy; 2025 Learn Pro Academy | Contact: +44 123 456 789</p>
+    </footer>
+  </body>
+</html>
