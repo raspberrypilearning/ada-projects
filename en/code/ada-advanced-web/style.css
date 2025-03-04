@@ -227,23 +227,7 @@ footer p {
   margin: 10px;
   font-size:12px;
 }
-/* used to style remix button - remove when you have remixed site!*/
-.trinketremix{
-  position:absolute;
-  top:0px;
-  right:20px;
-  font-size:12px;
-  background-color:cyan;
-  padding:5px;
-  display:block;
-  text-decoration:none;
-    display:none;
-}
 
-.trinketremix:hover{
-  background-color:pink;
-
-}
 
 /* added to help with making site work better on mobile devices */
 
