@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LearnPro - Technology Courses - Python Course</title>
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+   
+  </head>
+  <body >
+    <header>
+      <div class="header-top">
+        <a href="index.html" class="logo">
+          <img src="logo.png" alt="Learn Pro logo" width="50"  />Learn Pro Academy
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="programming.html" >Programming Courses</a>
+          </li>
+          <li><a href="#">AI Courses</a></li>
+          <li><a href="#">Infrastructure Courses</a></li>
+          <li><a href="#" class="active">About</a></li>
+        </ul>
+      </nav>
+      <nav class="secondary-nav">
+        <ul>
+          <li><a href="course-enquiry.html" class="active">Course Enquiry</a></li>
+          
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="container maincontainer">
+        <div class="text" style="margin-right:10px">
+          <h1>Course Enquiry form</h1>
+          <form
+            class="contact-form"
+            onsubmit="alert('Thank you for your enquiry - we will be in touch soon!')"
+          >
+            
+            <div class="title_choice">
+              <p>Title</p>
+              <label for="title_1"> Mr </label>
+              <input type="radio" id="title_1" name="title" value="Mr" />
+              <label for="title_2"> Mrs </label>
+              <input type="radio" id="title_2" name="title" value="Mrs" />
+              <label for="title_3"> Ms </label>
+              <input type="radio" id="title_3" name="title" value="Ms" />
+              <label for="title_4"> Miss </label>
+              <input type="radio" id="title_4" name="title" value="Miss" />
+              <label for="title_5"> Dr </label>
+              <input type="radio" id="title_5" name="title" value="Dr" />
+              <label for="title_6"> (none) </label>
+              <input
+                type="radio"
+                id="title_6"
+                name="title"
+                value=""
+                checked="checked"
+              />
+            </div>
+            <p>
+              <label for="firstname"> First Name: </label>
+              <input type="text" id="firstname" name="firstname" required />
+            </p>
+            <p>
+              <label for="lastname"> Last Name: </label>
+              <input type="text" id="lastname" name="lastname" required />
+            </p>
+            <p>
+              <label for="phonenumber"> Phone number: </label>
+              <input type="tel" id="phonenumber" name="phonenumber" required />
+            </p>
+            <p>
+              <label for="course"> Select Course: </label>
+              <select id="course" name="course" required multiple>
+                <option value="" selected="selected">
+                  --select the course(s) of interest--
+                </option>
+                <option value="python">Python course</option>
+                <option value="javascript">Javascript course</option>
+                <option value="c# course">C# course</option>
+                <option value="ai">Artificial Intelligence course</option>
+                <option value="datascience">Data Science course</option>
+                <option value="networking">Networking course</option>
+                <option value="cloud">Cloud Computing course</option>
+              </select>
+            </p>
+            <p>
+              <label for="num_places"> Places required: </label>
+              <input
+                type="number"
+                id="num_places"
+                name="num_places"
+                min="1"
+                max="10"
+                placeholder="Max 10"
+                required
+              />
+            </p>
+            <p>
+              <label for="moreinfo"> More information: </label>
+              <textarea
+                id="moreinfo"
+                name="moreinfo"
+                rows="3"
+                cols="25"
+              ></textarea>
+            </p>
+
+            <input type="submit" class="submit_btn" value="Send enquiry" />
+          </form>
+        </div>
+        <div class="text">
+          
+
+          <h2>Instructions for booking this course go here</h2>
+
+          <p>
+            Have questions about our courses? 
+            Fill out the form below, and our team will get back to 
+            you as soon as possible. Whether you need help choosing 
+            the right course, booking a spot, or understanding course 
+            details, we’re here to assist you.
+          </p>
+          
+            <h3>How to Book a Course</h3>
+            <ul>
+              <li>Select your desired course from the dropdown menu.</li>
+              <li>Enter the number of places required.</li>
+              <li>Fill in your contact details.</li>
+              <li>Submit the form, and we will contact you with the next steps.</li>
+            </ul>
+            <p>
+              For further assistance, feel free to call us at +44 123 456 789 or email us at <a href="mailto:support@learnpro.com.">support@learnpro.com</a>.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 Learn Pro Academy | Contact: +44 123 456 789</p>
+    </footer>
+  </body>
+</html>
