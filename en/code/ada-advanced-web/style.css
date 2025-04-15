@@ -97,7 +97,11 @@ ul {
   font-size: 0.9rem;
   height:33px;
 }
-
+.container {
+  clear:both;
+  /*display:table;*/
+  margin:10px 0;
+}
 
 .text {
   float:left;
