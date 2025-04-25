@@ -29,10 +29,7 @@ a {
   /*color:#003b4c;*/
 }
 
-h1,
-h2,
-h3,
-h4 {
+h1,h2,h3,h4 {
   color: #124559;
 }
 
@@ -144,9 +141,9 @@ ul {
 .image img {
   max-width: 100%;
   height: auto;
-  /* TODO user can add these styles */
+  /* TODO user can add these styles 
   border: 10px solid white;
-  box-shadow: #554f4f 4px 0px 7px 0px;
+  box-shadow: #554f4f 4px 0px 7px 0px;*/
 }
 
 .block {
@@ -173,8 +170,7 @@ ul {
 }
 
 .testimonial img {
-  border-radius: 100%;
-  /*rounds the corners to make a circle*/
+  border-radius: 100%; /*rounds the corners to make a circle*/
   max-width: 75px;
   margin: 1em auto;
 }
@@ -240,6 +236,7 @@ form.contact-form p textarea {
 
 nav ul li a:hover {
   background-color: #fff;
+  font-weight: bold;
 }
 
 .submit_btn:hover {
@@ -263,13 +260,11 @@ footer p {
 }
 
 
-/* TO BE ADDED BY STUDENT added to help with making site work better on mobile devices 
 
 @media (max-width: 768px) {
   header {
     text-align: center;
   }
-
   .header-top,
   nav ul,
   .image,
@@ -277,15 +272,12 @@ footer p {
   .text {
     width: 100%;
   }
-
   nav ul li {
     margin: 2px 0;
     display: block;
     width: 100%;
   }
-
   nav {
     display: table;
   }
 }
-  */
