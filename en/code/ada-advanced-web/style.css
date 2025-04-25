@@ -6,13 +6,7 @@
   /*If you set box-sizing: border-box; on an element, padding and border are included in the width and height:*/
 }
 
-/* CSS HEX 
---rich-black: #01161e;
---midnight-green: #124559;
---air-force-blue: #598392;
---ash-gray: #aec3b0;
---beige: #eff6e0;
-*/
+
 body {
   background-color: #fdffff;
   font-family: Arial, sans-serif;
@@ -21,12 +15,10 @@ body {
   margin: 0 auto;
   /*fix body max width as 1200px*/
   max-width: 1200px;
-
 }
 
 a {
   color: #124559;
-  /*color:#003b4c;*/
 }
 
 h1,h2,h3,h4 {
@@ -99,7 +91,7 @@ nav ul li .active {
 ul {
   margin-bottom: 0 !important;
 }
-/* TASK - locate class that is applied to secondary nav and change background color to #aec3b0 */
+
 .secondary-nav {
   background: #bfd9d7;
   margin-top: 5px;
@@ -109,7 +101,6 @@ ul {
 
 .container {
   clear: both;
-  /*display:table;*/
   margin: 10px 0;
 }
 
@@ -118,6 +109,7 @@ ul {
   min-width: 200px;
   width: 49.5%;
   margin-bottom: 20px;
+  border: 0px solid red;
 }
 
 .text h1 {
@@ -141,9 +133,6 @@ ul {
 .image img {
   max-width: 100%;
   height: auto;
-  /* TODO user can add these styles 
-  border: 10px solid white;
-  box-shadow: #554f4f 4px 0px 7px 0px;*/
 }
 
 .block {
@@ -232,18 +221,6 @@ form.contact-form p textarea {
   text-decoration: none;
   border-radius: 10px;
 }
-/* TO BE ADDED BY STUDENT for hover task 
-
-nav ul li a:hover {
-  background-color: #fff;
-  font-weight: bold;
-}
-
-.submit_btn:hover {
-  background-color: #eee;
-  border: 1px solid #000;
-  color: black;
-}*/
 
 footer {
   background: #aec3b0;
@@ -259,25 +236,10 @@ footer p {
   font-size: 12px;
 }
 
-
-
-@media (max-width: 768px) {
-  header {
-    text-align: center;
-  }
-  .header-top,
-  nav ul,
-  .image,
-  .block,
-  .text {
-    width: 100%;
-  }
-  nav ul li {
-    margin: 2px 0;
-    display: block;
-    width: 100%;
-  }
-  nav {
-    display: table;
-  }
-}
+/* CSS HEX COLOUR REFERENCE
+rich-black: #01161e;
+midnight-green: #124559;
+air-force-blue: #598392;
+ash-gray: #aec3b0;
+beige: #eff6e0;
+*/
