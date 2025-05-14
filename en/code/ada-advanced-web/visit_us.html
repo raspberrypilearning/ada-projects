@@ -3,6 +3,18 @@
   <head>
     <title>Visit Learn Pro</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <script>
+      function zoomIn(){
+        document.querySelector(".text").style.display = "none";
+        document.querySelector(".image").style.width = "100%";
+        document.querySelector(".reset").style.display = "block";
+      }
+      function zoomOut(){
+        document.querySelector(".text").style.display = "block";
+        document.querySelector(".image").style.width = "50%";
+        document.querySelector(".reset").style.display = "none";
+      }
+    </script>
   </head>
   <body>
     <header>
@@ -29,10 +41,23 @@
     <main>
       <!-- main content of each page to go here -->
       <section class="container maincontainer">
-        <!-- top section of page -->
+        <div class="text">
+          <h1>Visit Us</h1>
+          <p>
+            The Learn Pro offices are located at:<br>
+            37 Hills Road, <br>
+            Cambridge, <br>
+            CB2 1NT<br>
+            <br>
+            Here is a map to our location. (Click to zoom in).
+          </p>
+        </div>
+        <div class="image">
+          <!-- add clickable image here -->
+        </div>
       </section>
       <section class="container">
-        <!-- optional lower section of page -->
+        <!-- add reset button here -->
       </section>
     </main>
     <footer>
