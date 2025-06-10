@@ -1,0 +1,4 @@
+name: "Ada Image task"
+identifier: "ada-image-task"
+type: 'python'
+
